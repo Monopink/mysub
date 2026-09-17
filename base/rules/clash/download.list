@@ -1,10 +1,13 @@
 DOMAIN-SUFFIX,download.adobe.com
+DOMAIN-SUFFIX,e-daixia.top
 
 # Steam
 DOMAIN,egdownload.fastly-edge.com
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,cm.steampowered
 DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,cdn.steamusercontent.com
+DOMAIN-SUFFIX,steam.clngaa.com
 IP-CIDR,45.121.184.0/24,no-resolve
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/24,no-resolve
