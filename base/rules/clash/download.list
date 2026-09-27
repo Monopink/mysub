@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,cm.steampowered
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,cdn.steamusercontent.com
 DOMAIN-SUFFIX,steam.clngaa.com
+DOMAIN-SUFFIX,eo-edgefunctions7.com
 IP-CIDR,45.121.184.0/24,no-resolve
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/24,no-resolve
