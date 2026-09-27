@@ -1,0 +1,32 @@
+mixed-port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: false
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  respect-rules: true
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - localhost.ptlogin2.qq.com
+    - dns.msftncsi.com
+    - www.msftncsi.com
+    - www.msftconnecttest.com
+  use-hosts: true
+  use-system-hosts: false
+  proxy-server-nameserver:
+    - 'https://1.1.1.1/dns-query'
+    - 'https://8.8.8.8/dns-query'
+  direct-nameserver:
+    - 'https://1.1.1.1/dns-query'
+    - 'https://8.8.8.8/dns-query'
+  nameserver:
+    - 'https://1.1.1.1/dns-query#节点选择'
+    - 'https://8.8.8.8/dns-query#节点选择'
+  fallback: []
